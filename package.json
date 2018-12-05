@@ -1,0 +1,27 @@
+{
+  "name": "twitter-kinesis",
+  "version": "1.0.0",
+  "description": "Twitter stream on aws kinesis",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "nyc mocha test --recursive --exit"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.14.0",
+    "faker": "^4.1.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.368.0",
+    "dotenv": "^6.1.0",
+    "twitter": "^1.7.1",
+    "uuid": "^3.3.2"
+  }
+}
